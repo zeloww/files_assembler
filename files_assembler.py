@@ -56,7 +56,7 @@ if __name__ == "__main__":
 	exe_assembled()
 	exit()"""
 
-	with open(file_directory + ".pyw" , "w") as f:
+	with open(file_directory + ".py" , "w") as f:
 		f.write(file_text)
 
 	return "Successfully assembled files!"
